@@ -1,0 +1,19 @@
+
+LOGISTIC REGRESSION RESULTS
+---------------------------
+Accuracy: 0.6842
+McFadden pseudo-R-squared: 0.0625
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.96      0.81        26
+           1       0.50      0.08      0.14        12
+
+    accuracy                           0.68        38
+   macro avg       0.60      0.52      0.47        38
+weighted avg       0.63      0.68      0.60        38
+
+Confusion Matrix (actual rows, predicted columns):
+[[25  1]
+ [11  1]]

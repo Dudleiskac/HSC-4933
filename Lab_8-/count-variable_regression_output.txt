@@ -1,0 +1,52 @@
+
+POISSON REGRESSION RESULTS
+--------------------------
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        mhlth_crudeprev   No. Observations:                 2299
+Model:                            GLM   Df Residuals:                     2287
+Model Family:                 Poisson   Df Model:                           11
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -5397.6
+Date:                Sun, 25 Oct 2026   Deviance:                       39.316
+Time:                        23:02:03   Pearson chi2:                     39.2
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.1925
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                    1.7032      0.172      9.888      0.000       1.366       2.041
+binge_crudeprev          0.0032      0.003      0.954      0.340      -0.003       0.010
+checkup_crudeprev       -0.0004      0.002     -0.192      0.848      -0.004       0.004
+csmoking_crudeprev       0.0043      0.004      1.100      0.271      -0.003       0.012
+depression_crudeprev     0.0137      0.002      5.800      0.000       0.009       0.018
+obesity_crudeprev        0.0001      0.002      0.076      0.940      -0.003       0.004
+sleep_crudeprev          0.0024      0.002      1.059      0.289      -0.002       0.007
+selfcare_crudeprev      -0.0608      0.022     -2.708      0.007      -0.105      -0.017
+indeplive_crudeprev      0.0522      0.014      3.759      0.000       0.025       0.079
+loneliness_crudeprev     0.0113      0.003      3.717      0.000       0.005       0.017
+foodinsecu_crudeprev    -0.0083      0.007     -1.247      0.212      -0.021       0.005
+housinsecu_crudeprev     0.0150      0.008      1.786      0.074      -0.001       0.032
+========================================================================================
+
+Pseudo-R-squared:
+0.1925
+
+Variance Inflation Factors (VIF):
+binge_crudeprev: 2.5288
+checkup_crudeprev: 1.7504
+csmoking_crudeprev: 6.9348
+depression_crudeprev: 2.2164
+obesity_crudeprev: 2.5730
+sleep_crudeprev: 3.2093
+selfcare_crudeprev: 30.5144
+indeplive_crudeprev: 30.9533
+loneliness_crudeprev: 3.4326
+foodinsecu_crudeprev: 62.8308
+housinsecu_crudeprev: 46.8400
+
+Significant predictors (p < 0.05):
+depression_crudeprev: coefficient = 0.013653, p-value = 6.6371e-09
+selfcare_crudeprev: coefficient = -0.060769, p-value = 0.00676918
+indeplive_crudeprev: coefficient = 0.052157, p-value = 0.000170627
+loneliness_crudeprev: coefficient = 0.011268, p-value = 0.000201438
